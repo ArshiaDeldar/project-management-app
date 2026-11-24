@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "type": "module",
@@ -20,8 +21,5 @@
   "devDependencies": {
     "nodemon": "^3.1.14",
     "prisma": "^7.10.1"
-  },
-  "script": {
-    "start": "node src/server.js"
   }
 }
